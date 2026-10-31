@@ -1,4 +1,4 @@
-FROM golang:1.22.4-alpine
+FROM golang:1.27-alpine
 
 RUN --mount=type=cache,target=/var/cache/apk \
   apk --update add tzdata git && \
