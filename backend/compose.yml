@@ -19,7 +19,7 @@ services:
       DB_USER: root
       DB_PASSWORD: password
       DB_NAME: app #TODO: アプリ名に変える
-      LOCAL: true
+      LOCAL: false
 
   db:
     image: mysql:latest
