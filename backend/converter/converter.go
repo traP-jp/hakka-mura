@@ -31,7 +31,7 @@ func NewOpenAI() (*OpenAIConverter, error) {
 
 func (c *OpenAIConverter) ConvertMessage(ctx context.Context, originalMessage string) (string, error) {
 	req := openai.ChatCompletionRequest{
-		Model: openai.GPT4o,
+		Model: openai.GPT6Luna,
 		Messages: []openai.ChatCompletionMessage{
 			{
 				Role:    openai.ChatMessageRoleSystem,
